@@ -17,13 +17,13 @@ export default function Prestabit() {
         <div className={styles.colum_right}>
           <p className={styles.colum_right__title}>Pre-Registro</p>
           <p className={styles.colum_right__text}>Prestabit - Bitcoin a $0.00 de enganche.</p>
-          <label for="email">Dirección de correo</label>
+          <label>Dirección de correo</label>
           <input
            type="email"
            id="email" 
            className={styles.form__input} 
           />
-          <label for="name">Nombre completo</label>
+          <label>Nombre completo</label>
           <input
            type="text" 
            id="name" 
