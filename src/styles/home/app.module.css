@@ -1,0 +1,142 @@
+.main {
+  margin-top: 8rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: var(--max-width);
+}
+
+.text {
+  font-size: 35px;
+  font-weight: 400;
+  color: rgb(var(--primary-text));
+}
+  
+.title {
+  font-size: 60px;
+  font-weight: 700;
+  color: rgb(var(--primary-text));
+}
+    
+.title span {
+  color: rgb(var(--secondary-text));
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 100%;
+}
+
+.grid__div{
+  margin: 1rem;
+  background: rgb(var(--card-background-rgb));
+  border-radius: 30px;
+  padding: 2rem;
+  display: grid;
+  grid-template-rows: 1fr 2fr;
+  justify-items: center;
+}
+
+.grid img {
+  margin-top: 30px;
+  width: 70%;
+  height: auto;
+}
+
+.step {
+  font-size: 16px;
+  font-weight: 500;
+  color: rgb(var(--secondary-text));
+  text-align: left;
+}
+
+.step__title{
+  font-size: 22px;
+  font-weight: 700;
+  color: rgb(var(--primary-text));
+  margin-block: 20px;
+  text-align: left;
+}
+
+.step__text{
+  font-size: 15px;
+  font-weight: 500;
+  color: rgb(var(--primary-text));
+}
+
+@media (min-width: 601px) and (max-width: 1120px) {
+  .main {
+    margin-top: 4rem;
+  }
+
+  .title {
+    font-size: 40px;
+    font-weight: 700;
+    color: rgb(var(--primary-text));
+  }
+
+  .text {
+    font-size: 20px;
+  }
+
+  .grid__div{
+    grid-template-rows: 1fr .6fr;
+  }
+
+  .step {
+    font-size: 14px;
+  }
+  
+  .step__title{
+    font-size: 18px;
+  }
+  
+  .step__text{
+    font-size: 12px;
+  }
+  
+}
+
+@media (max-width: 600px) {
+  .main {
+    margin-top: 4rem;
+  }
+
+  .title {
+    font-size: 40px;
+    font-weight: 700;
+    color: rgb(var(--primary-text));
+  }
+
+  .text {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .grid {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+  }
+
+  .grid__div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+  }
+
+  .step {
+    font-size: 14px;
+  }
+  
+  .step__title{
+    font-size: 18px;
+  }
+  
+  .step__text{
+    font-size: 12px;
+  }
+}
