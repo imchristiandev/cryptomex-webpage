@@ -11,7 +11,7 @@ export default function Prestabit() {
             src={ QR }
             alt= 'Grafica'
           />
-          <p>Envia Bitcoin desde cualquier parte del mundo </p>
+          <p>Envía Bitcoin desde cualquier parte del mundo </p>
           <p>a México y recibelo en pesos MXN</p>
         </div>
         <div className={styles.colum_right}>

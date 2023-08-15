@@ -39,7 +39,6 @@ export const TransfersSection = () => {
           <p className={ styles.columLeft__title}>La Transferencia</p>
           <p className={ styles.columLeft__title2}>Más Segura y Fácil</p>
           <p className={ styles.columLeft__text}>No importa en que parte del mundo estés, con Bitcoin y CryptoMex, siempre podrás mandar dinero y ayudar a tus seres queridos en México.</p>
-          <p className={ styles.columLeft__text}>La familia siempre va primero</p>
           <Link href="/prestabit">
            <button>
              Comienza Hoy
@@ -57,7 +56,7 @@ export const TransfersSection = () => {
             <span>Sin Limites</span>
           </p>
           <p className={ styles.places__text}>
-            A donde tu familia mas lo necesite
+            Envía dinero a cualquier parte de México
           </p>
           <div className={ styles.places__grid }>
             {places.map((place) => (

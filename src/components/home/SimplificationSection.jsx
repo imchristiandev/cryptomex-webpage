@@ -23,7 +23,7 @@ export const SimplificationSection = () => {
       <div className={ styles.grid }>
         <div className={ styles.grid__div }>
           <p className={ styles.grid__div__title }>
-            Envia en Bitcoin y recive en Pesos Mexicanos{"   "}
+            Envía en Bitcoin y recibe en Pesos Mexicanos{"   "}
             <span>mxn</span>
           </p>
           <div>
@@ -61,8 +61,8 @@ export const SimplificationSection = () => {
         />
         <div className={ styles.grid__div }>
           <p className={ styles.grid__div__title2 }>
-            PROXIMAMENTE<br />
-            <span>Bintoin a credito Cryptomex</span>
+            PRÓXIMAMENTE<br />
+            <span>Bitcoin a credito Cryptomex</span>
           </p>
           <div>
             <div className={ styles.grid__div__grid }>
@@ -71,7 +71,7 @@ export const SimplificationSection = () => {
                 alt='Bitcoin blanco y negro'
               />
               <div>
-                <p className={ styles.grid__div__grid__title }>Bitcoin a credito <span>PROXIMAMENTE</span></p>
+                <p className={ styles.grid__div__grid__title }>Bitcoin a credito <span>PRÓXIMAMENTE</span></p>
                 <p>Con PrestaBit es posible</p>
               </div>
             </div>
@@ -92,7 +92,7 @@ export const SimplificationSection = () => {
               />
               <div>
                 <p className={ styles.grid__div__grid__title }>Cuida tus Bitcoins</p>
-                <p>Wallets 100% personal para ti y tu ahorros en cripto activos</p>
+                <p>Wallets 100% personal para ti y tus ahorros en cripto activos</p>
               </div>
             </div>
           </div>

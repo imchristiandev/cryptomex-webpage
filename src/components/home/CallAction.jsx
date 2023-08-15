@@ -7,8 +7,8 @@ export const CallAction = () => {
   return (
     <div className={ styles.main }>
       <div>
-        <p className={ styles.text }>Unete a la familia</p>
-        <p className={ styles.title }>¿Ves qué fácil es con <span>CryptoMex?</span></p>
+        <p className={ styles.text }>Únete a la familia</p>
+        <p className={ styles.title }>Con <span>CryptoMex</span> es muy fácil enviar dinero a tu familia</p>
         <Link href="/prestabit">
           <button>Comienza hoy</button>
         </Link>

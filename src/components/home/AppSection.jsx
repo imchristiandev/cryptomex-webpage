@@ -10,7 +10,7 @@ const steps = [
         src: WhatsApp,
         alt: "WhatsApp",
         title: "Registrate",
-        text: "Directamente solo con tu numero de whatsapp."
+        text: "Directamente solo con tu numero de WhatsApp."
     },
     {
         step: "Paso 2",
@@ -33,7 +33,7 @@ export const AppSection = () => {
     <div className={ styles.main }>
       <p className={ styles.title }>Cómo <span>empezar</span></p>
       <p className={ styles.text }>
-        Realiza tu primer tranferenciaen 3 simples pasos
+        Realiza tu primer tranferencia en 3 simples pasos
       </p>
       <div className={ styles.grid }>
         {steps.map((step) => (
