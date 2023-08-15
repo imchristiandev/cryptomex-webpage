@@ -17,13 +17,13 @@ export default function Prestabit() {
         <div className={styles.colum_right}>
           <p className={styles.colum_right__title}>Unete al futuro</p>
           <p className={styles.colum_right__text}>Eres un negocio que quiere que sus clientes reciban sus envios de dinero via WhatsApp y se cobre en tu caja.</p>
-          <label for="email">Dirección de correo</label>
+          <label >Dirección de correo</label>
           <input
            type="email"
            id="email" 
            className={styles.form__input} 
           />
-          <label for="name">Nombre completo</label>
+          <label >Nombre completo</label>
           <input
            type="text" 
            id="name" 
