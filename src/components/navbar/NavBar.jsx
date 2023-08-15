@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import styles from '../../styles/navbar/navbar.module.css';
 import logo from '../../images/cryptomex.png';
+import Link from 'next/link';
 
 export const Navbar = () => {
 
@@ -19,9 +20,14 @@ export const Navbar = () => {
             priority
           />
         </a>
-        <button className={styles.button}>
-          Registrarse
-        </button>
+        <div className={styles.menu}>
+          <a href="/prestabit">
+              Prestabit
+          </a>
+          <a href="/sistema-qr">
+              Sistema QR
+          </a>
+        </div>
       </div>
     </div>
   )

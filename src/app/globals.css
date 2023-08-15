@@ -56,19 +56,14 @@ button {
   border-radius: 20px;
   background-color: rgb(255, 219, 68);
   border-style: none;
+  cursor: pointer;
 }
 
 
 /* Enable hover only on non-touch devices */
 @media (hover: hover) and (pointer: fine) {
   button:hover {
-    height: 70px;
-    width: 300px;
-    font-size: 20px;
-    font-weight: 600;
-    color: black;
-    border-radius: 20px;
-    background-color: transparent;
-    border: solid 5px rgb(255, 219, 68);
+    background-color: rgb(255, 219, 68, 0.4);
+    border: solid 3px rgb(255, 219, 68);
   }
 }

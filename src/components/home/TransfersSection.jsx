@@ -4,6 +4,7 @@ import Planeta from '@/images/planeta.png';
 import Banco from '@/images/banco.png';
 import Foco from '@/images/foco.png';
 import Store from '@/images/store.png';
+import Link from 'next/link';
 
 const places = [
     {
@@ -30,6 +31,7 @@ const places = [
 ]
 
 export const TransfersSection = () => {
+
   return (
     <div className={ styles.main }>
       <div className={ styles.grid }>
@@ -38,7 +40,11 @@ export const TransfersSection = () => {
           <p className={ styles.columLeft__title2}>Más Segura y Fácil</p>
           <p className={ styles.columLeft__text}>No importa en que parte del mundo estés, con Bitcoin y CryptoMex, siempre podrás mandar dinero y ayudar a tus seres queridos en México.</p>
           <p className={ styles.columLeft__text}>La familia siempre va primero</p>
-          <button>Comienza Hoy</button>
+          <Link href="/prestabit">
+           <button>
+             Comienza Hoy
+           </button>
+          </Link>
         </div>
         <Image
           src={Planeta}
