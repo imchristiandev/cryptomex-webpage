@@ -9,7 +9,7 @@ export const CallAction = () => {
       <div>
         <p className={ styles.text }>Únete a la familia</p>
         <p className={ styles.title }>Con <span>CryptoMex</span> es muy fácil enviar dinero a tu familia</p>
-        <Link href="/cryptomex-webpage/prestabit">
+        <Link href="/prestabit">
           <button>Comienza hoy</button>
         </Link>
       </div>
