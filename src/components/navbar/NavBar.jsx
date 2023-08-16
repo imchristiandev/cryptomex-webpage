@@ -9,7 +9,7 @@ export const Navbar = () => {
     <div className={styles.main}>
       <div className={styles.navBar}>
         <a
-          href="/"
+          href="/cryptomex-webpage"
           rel="noopener noreferrer"
           className={ styles["logo-a"] }
         >
