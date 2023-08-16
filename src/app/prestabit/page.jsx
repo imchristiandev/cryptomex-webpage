@@ -42,7 +42,7 @@ export default function Prestabit() {
           </label>
           <button>Registarme</button>
           <a
-            href="/sistema-qr"
+            href="/cryptomex-webpage/sistema-qr"
           >
             Sistema QR de envios
           </a>
