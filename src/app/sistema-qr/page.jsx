@@ -42,7 +42,7 @@ export default function Prestabit() {
           </label>
           <button>Mandar información</button>
           <a
-            href="/prestabit"
+            href="/cryptomex-webpage/prestabit"
           >
             Pre-Registro sistema Prestabit
           </a>

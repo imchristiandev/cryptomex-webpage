@@ -21,7 +21,7 @@ export const Navbar = () => {
           />
         </a>
         <div className={styles.menu}>
-          <a href="/prestabit">
+          <a href="/cryptomex-webpage/prestabit">
               Prestabit
           </a>
           <a href="/cryptomex-webpage/sistema-qr">
