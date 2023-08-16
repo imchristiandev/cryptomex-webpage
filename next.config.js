@@ -3,7 +3,7 @@ const nextConfig = {
   reactStrictMode: true,
 
  // Add basePath
-  basePath: '/cryptomex',
+  basePath: '/github-pages',
 
 }
 
