@@ -4,7 +4,8 @@ const nextConfig = {
 
  // Add basePath
   basePath: '/github-pages',
-
+  trailingSlash: true,
+  output: 'export',
 }
 
 module.exports = nextConfig
