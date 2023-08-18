@@ -82,7 +82,7 @@ export const SimplificationSection = () => {
               />
               <div>
                 <p className={ styles.grid__div__grid__title }>Compra Bitcoin</p>
-                <p>En nuestras sucursales, ATM's o tarjetas de crédito</p>
+                <p>{"En nuestras sucursales, ATM's o tarjetas de crédito"}</p>
               </div>
             </div>
             <div className={ styles.grid__div__grid }>
