@@ -37,10 +37,10 @@ export default function Prestabit() {
             <a
               href= ""
             >
-              Terminos y Condiciones y Politicas de Privacidad
+              Términos - Políticas
             </a>
           </label>
-          <button>Registarme</button>
+          <button>Registrarme</button>
           <a
             href="/sistema-qr"
           >

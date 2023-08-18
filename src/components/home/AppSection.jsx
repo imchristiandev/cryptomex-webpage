@@ -9,15 +9,15 @@ const steps = [
         step: "Paso 1",
         src: WhatsApp,
         alt: "WhatsApp",
-        title: "Registrate",
-        text: "Directamente solo con tu numero de WhatsApp."
+        title: "Regístrate",
+        text: "Directamente solo con tu número de WhatsApp."
     },
     {
         step: "Paso 2",
         src: BitcoinEmail,
         alt: "Bitcoin - Email",
         title: '"Su Nombre" @ "Tienda"',
-        text: "Recibe Bitcoins convertidos a pesos Mexicanos al instante, en cualquiera de nuestros aliados y servicios."
+        text: "Recibe Bitcoins convertidos a pesos Mexicanos al instante, con cualquiera de nuestros aliados y servicios."
     },
     {
         step: "Paso 3",
