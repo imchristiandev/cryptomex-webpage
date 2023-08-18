@@ -15,7 +15,7 @@ export default function Prestabit() {
           <p>a México y recibelo en pesos MXN</p>
         </div>
         <div className={styles.colum_right}>
-          <p className={styles.colum_right__title}>Unete al futuro</p>
+          <p className={styles.colum_right__title}>Únete al futuro</p>
           <p className={styles.colum_right__text}>Eres un negocio que quiere que sus clientes reciban sus envios de dinero via WhatsApp y se cobre en tu caja.</p>
           <label >Dirección de correo</label>
           <input
@@ -37,7 +37,7 @@ export default function Prestabit() {
             <a
               href= ""
             >
-              Terminos y Condiciones y Politicas de Privacidad
+              Términos - Políticas
             </a>
           </label>
           <button>Mandar información</button>

@@ -53,7 +53,7 @@ export const TransfersSection = () => {
       <div className={ styles.places }>
           <p className={ styles.places__title}>
             Transfiere{' '}
-            <span>Sin Limites</span>
+            <span>Sin Límites</span>
           </p>
           <p className={ styles.places__text}>
             Envía dinero a cualquier parte de México
