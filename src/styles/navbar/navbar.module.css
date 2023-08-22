@@ -3,14 +3,12 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  justify-items: center;
   max-width: 100vw;
   background-color: rgb(var(--foreground-rgb));
   position: fixed;
   top: 0;
   width: 100%;
   z-index: 1000;
-  padding-block: 10px;
 }
 
 .navBar {
@@ -20,7 +18,6 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  align-items: inherit;
   font-size: 0.85rem;
   max-width: var(--max-width);
   width: 100vw;
@@ -30,29 +27,96 @@
 .menu {
   display: flex;
   flex-direction: row;
-  width: 35%;
+  width: 30%;
   justify-content: space-around;
 }
 
 .menu a {
   background-color: rgb(var(--card-border-rgb));
-  padding: 1rem;
+  padding: 0.5rem 1rem;
   border-radius: 10px;
   font-size: 15px;
   font-weight: 600;
   color: rgb(var(--foreground-rgb));
+  width: 1300px;
+  display: flex;
+  align-items: center;
+}
+
+.cardIcon {
+  height: 20px;
+  width: auto;
+  margin-left: 5px;
+}
+
+.visamaster {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.hamburger {
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.dropdown {
+  display: none;
+  position: absolute;
+  right: 0;
+  top: 100%;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1100;
+}
+
+.dropdown.active {
+  display: block;
+}
+
+.dropdown a {
+  display: block;
+  padding: 8px 16px;
+  text-decoration: none;
+  color: black;
+  border-bottom: 1px solid #eee;
+}
+
+.dropdown a:last-child {
+  border-bottom: none;
 }
 
 .logo {
   height: auto;
   width: 30%;
 }
-  
-/* Mobile */
+
+
 @media (max-width: 600px) {
   .logo {
     height: auto;
     width: 70%;
+  }
+  
+  .visamaster {
+    font-size: 14px;
+  }
+
+  .cardIcon {
+    height: 15px;
+  }
+
+  .hamburger {
+    font-size: 20px;
+  }
+
+  .dropdown {
+    right: 10px;
+    width: 150px;
   }
 
   .navBar {
@@ -68,7 +132,7 @@
     gap: 20px;
   }
 
-  .menu {
+  .logo-a {
     align-items: flex-end;
     inset: auto 0 0;
     padding: 1rem;
@@ -79,7 +143,7 @@
     );
   }
 
-  .logo-a {
+  .menu {
     position: relative;
     margin: 0;
     padding: 9px 15px;
