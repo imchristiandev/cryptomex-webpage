@@ -2,9 +2,9 @@
 import React, { useState } from 'react';
 import Image from 'next/image';
 import styles from '../../styles/navbar/navbar.module.css';
-import logo from '../../images/cryptomex.png';
-import visaIcon from '../../../public/visa.svg';
-import mastercardIcon from '../../../public/mastercard.svg';
+import logo from '@/images/cryptomex.png';
+import visaIcon from '@/images/visa.svg';
+import mastercardIcon from '@/images/mastercard.svg';
 
 export const Navbar = () => {
   const [isMenuOpen, setMenuOpen] = useState(false);
